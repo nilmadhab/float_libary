@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+<script type="text/javascript">
+function change_my_url()
+{
+	var stateObj = { foo: "bar" };
+	history.pushState(stateObj, "page 2", "bar.html");
+}
+</script>
+</head>
+<body>
+<a href="#" id='click' onclick="change_my_url();">Click to change url to bar.html</a>
+</body>
+</html>
