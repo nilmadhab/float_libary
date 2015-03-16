@@ -18,34 +18,9 @@ $conn=db_connect();
 <script language="javascript" type="text/javascript" src="js/plugins/flot/jquery.flot.categories.js "></script>
 <script language="javascript" type="text/javascript" src="js/plugins/flot/jquery.flot.pie.js"></script>
  
-<script type="text/javascript">
-var data = [
-    { label: "IE",  data: 19.5, color: "#4572A7"},
-    { label: "Safari",  data: 4.5, color: "#80699B"},
-    { label: "Firefox",  data: 36.6, color: "#AA4643"},
-    { label: "Opera",  data: 2.3, color: "#3D96AE"},
-    { label: "Chrome",  data: 36.3, color: "#89A54E"},
-    { label: "Other",  data: 0.8, color: "#3D96AE"}
-];
- 
-$(document).ready(function () {
-    $.plot($("#placeholder"), data, {
-         series: {
-            pie: {
-                show: true
-            }
-         },
-         legend: {
-            labelBoxBorderColor: "none"
-         }
-    });
-});
-</script>
-</head>
- 
 
-<div id="placeholder" style="width:300px; height:200px;"></div>
-</div>
+</head>
+
   <div class="row-fluid">
   		<div class="row">
         	<h3> Select Particulars Vs Total quantity sold 

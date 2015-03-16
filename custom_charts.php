@@ -96,27 +96,7 @@ on a given day </h3>
 <script language="javascript" type="text/javascript" src="js/plugins/flot/jquery.flot.spider.js"></script> 
 <script language="javascript" type="text/javascript" src="js/plugins/flot/jquery.flot.pie.js"></script>
 <script type="text/javascript">
-	var data = [
-    { label: "BREAD",  data: 19.5, color: "#4572A7"},
-    { label: "tea",  data: 4.5, color: "#80699B"},
-    { label: "pizza",  data: 36.6, color: "#AA4643"},
-    { label: "cofee",  data: 2.3, color: "#3D96AE"},
-
-];
-
- 
-$(document).ready(function () {
-    $.plot($("#donut"), data, {
-         series: {
-            pie: {
-                show: true,
-				
-     label: {show: true}
-            }
-         },
-        
-    });
-});
+	
 			 
 
  
