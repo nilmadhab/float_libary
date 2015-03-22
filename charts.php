@@ -20,7 +20,7 @@ $conn=db_connect();
  
 
 </head>
-
+ 
   <div class="row-fluid">
   		<div class="row">
         	<h3> Select Particulars Vs Total quantity sold 
@@ -86,6 +86,7 @@ on a given month </h3>
         <?php 
        	echo "<button class=\"btn btn-success\" onClick='first_graph(". json_encode($first_array) .")'> Plot Between Total Amount received Vs Day </button> &nbsp;";
 					echo "<button class=\"btn btn-success\"  onClick='second_graph(". json_encode($total_amount_vs_day) .")'> Plot Between Particulars Vs Total quantity sold  </button>";?>
+					 <p> Click the buttons to generate chart </p>
         </div>
 
 

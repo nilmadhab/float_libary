@@ -84,7 +84,7 @@ on a given day </h3>
   </div> <!-- End .container -->
           <?php 
        //	echo "<button class=\"btn btn-success\" onClick='first_graph(". json_encode($first_array) .")'> Plot Between Total Amount received Vs Day </button> &nbsp;";
-					echo "<button class=\"btn btn-success\" style=\"margin-left:150px; margin-bottom:200px;\" onClick='first_graph(". json_encode($total_amount_vs_day) .")'> Click to see graph  </button>";?>
+					echo "<button class=\"btn btn-success\" style=\"position:absolute;top:150px; left:70%;\" onClick='first_graph(". json_encode($total_amount_vs_day) .")'> Click to see graph  </button>";?>
 </div> <!-- End #main -->
 <!-- Le javascript
     ================================================== -->
